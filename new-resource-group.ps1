@@ -1,6 +1,6 @@
 <#
 	.SYNOPSIS
-	Create a new Azure Resource Group.
+	Creates a new Azure Resource Group.
 
 	.DESCRIPTION
 	Creates a new Azure Resource Group with the given credentials
