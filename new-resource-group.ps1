@@ -20,7 +20,7 @@
 	.PARAMETER ResourceGroupName
 	The name of the resource group to be created
 
-    .PARAMETER ResourceGroupLocation
+    	.PARAMETER ResourceGroupLocation
 	The location of the resource group to be created ( e.g. "westeurope")
 #>
 
@@ -35,7 +35,7 @@ param(
 	[string]$TenantId,
 	[Parameter(Mandatory = $True)]
 	[string]$ResourceGroupName,
-    [Parameter(Mandatory = $True)]
+    	[Parameter(Mandatory = $True)]
 	[string]$ResourceGroupLocation
 )
 
